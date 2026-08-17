@@ -60,7 +60,7 @@ def process_file(filepath, sort_order, width, height):
     plt.xlabel('Artist', fontsize=12)
     plt.ylabel('Count', fontsize=12)
 
-    plt.text(0.98, 0.98, f'total: {Total}',
+    plt.text(0.98, 0.98, f'Total: {total}',
              transform=fig.transFigure,
              fontsize=13, fontweight='bold', color='darkred',
              ha='right', va='top',
